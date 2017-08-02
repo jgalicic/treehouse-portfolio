@@ -85,7 +85,6 @@ HOME
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	outline: 5px solid green;
 }
 
 /* This is Justin */
@@ -96,7 +95,6 @@ HOME
 	text-align: center;
 	width: 252px;
 	height: 300px;
-	outline: 5px solid purple;
 }
 
 h1.title {
