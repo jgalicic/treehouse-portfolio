@@ -85,22 +85,23 @@ HOME
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	outline: 5px solid green;
 }
 
 /* This is Justin */
 #box1bbb {
-	position: relative;
-	top: 100px;
 	z-index: -1000;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
 	width: 252px;
 	height: 200px;
+	outline: 5px solid purple;
 }
 
 h1.title {
 	margin: 0;
+	margin-top: 380px;
 	padding: 0;
 	color: rgba(18,22,33,.9);
 	font-family: 'Rubik', sans-serif;
