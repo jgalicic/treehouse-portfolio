@@ -284,6 +284,7 @@ h2.about-title {
 #box3bc {
 	padding: 20px 0;
 	margin: 0 auto;
+	width: 320px;
 }
 
 #box3bb img {
@@ -299,20 +300,19 @@ CONTACT
 #box4a {
 	height: 850px;
 	background: url('../img/peter-nguyen-mars1.jpg') center no-repeat;
-	position: relative;
 }
 
 #contact-title {
 	font-size: 3em;
 	position: relative;
-	top: 160px;
+	top: 180px;
 	z-index: 100;
 }
 
 #contact-subtitle {
 	font-size: 1em;
 	position: relative;
-	top: 140px;
+	top: 160px;
 	z-index: 100;
 }
 
@@ -321,7 +321,7 @@ CONTACT
 	background-color: rgba(0,0,0,.3);
 	margin: 0 auto;
 	position: relative;
-	top: 160px;
+	top: 180px;
 	max-width: 300px;
 	padding-bottom: 30px;
 }
@@ -463,17 +463,4 @@ MEDIA QUERIES
 	}
 }
 
-
-/*
-
-	#header-nav-list {
-		text-align: center;
-		width: 100%;
-		height: 45px;
-		padding-top: 3px;
-		position: fixed;
-		z-index: 100;
-		background: rgba(0,0,0,.3);
-	}
-	*/
 
