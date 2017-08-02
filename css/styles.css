@@ -28,6 +28,7 @@ HOME
 /* Nav menu parent */
 #box1aaa {
 	width: 100%;
+    display: webkit-flex; 
     display: flex;
     justify-content: center;
 }
@@ -80,6 +81,9 @@ HOME
 	background-size: cover;
     max-width: 1600px;
 	margin: 0 auto;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
 }
 
 /* This is Justin */
@@ -87,8 +91,10 @@ HOME
 	position: relative;
 	top:140px;
 	z-index: -1000;
-	display: flex;
-	justify-content: center;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 252px;
 }
 
 h1.title {
@@ -101,6 +107,7 @@ h1.title {
 	font-size: 2.5em;
 	z-index: -1001;
 	position: fixed;
+	text-align: center;
 }
 
 h2, h3 {
@@ -125,6 +132,7 @@ PICTURE BAR
 #picture-bar,
 #picture-description-bar,
 #picture-description-bar div {
+	display: webkit-flex; 
 	display: flex;
 	justify-content: center;
 }
@@ -209,6 +217,7 @@ h2.about-title,
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	display: webkit-flex; 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -249,6 +258,7 @@ h2.about-title {
 }
 
 #box3b {
+	display: webkit-flex; 
 	display: flex;
 	flex-direction: column;
 }
@@ -354,6 +364,7 @@ MEDIA QUERIES
 @media (min-width: 360px) {
 	#box1bbb {
 		top:260px;
+		width: 260px;
 	}
 
 	.contact-tile p {
@@ -378,7 +389,6 @@ MEDIA QUERIES
 		width: 100%;
 		height: 45px;
 		padding-top: 3px;
-		position: fixed;
 		z-index: 100;
 		background: rgba(0,0,0,.3);
 	}
@@ -408,6 +418,7 @@ MEDIA QUERIES
 
 	#box1bbb {
 		top:440px;
+		width: 300px;
 	}
 
 	h1.title {
@@ -419,6 +430,7 @@ MEDIA QUERIES
 	}
 
 	#box3b {
+		display: webkit-flex; 
 		display: flex;
 		flex-direction: row;
 		margin-top: 25px;
@@ -450,4 +462,16 @@ MEDIA QUERIES
 }
 
 
+/*
+
+	#header-nav-list {
+		text-align: center;
+		width: 100%;
+		height: 45px;
+		padding-top: 3px;
+		position: fixed;
+		z-index: 100;
+		background: rgba(0,0,0,.3);
+	}
+	*/
 
