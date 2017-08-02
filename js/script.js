@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y < 300) {
+  if (y < 370) {
     $('h1').show();
   } else {
     $('h1').hide();
